@@ -87,7 +87,7 @@ const subheadIds: Record<string, string> = {
   "Case 4: Stack Cups": "case-stack-cups",
 };
 
-const siteBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "/touchworld-project";
+const siteBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "/TouchWorld-website";
 
 function assetPath(path: string) {
   if (!path || path.startsWith("http") || path.startsWith("data:") || path.startsWith("#")) {

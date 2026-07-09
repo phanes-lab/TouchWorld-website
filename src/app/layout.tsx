@@ -57,7 +57,7 @@ const jetBrainsMono = localFont({
   variable: "--font-code",
 });
 
-const siteBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "/touchworld-project";
+const siteBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "/TouchWorld-website";
 const faviconPath = `${siteBasePath}/touchworld/logos/phanes_logo.png`;
 
 export const metadata: Metadata = {
