@@ -938,7 +938,7 @@ function DatasetCollectionGallery({ figureNumber }: { figureNumber: number }) {
       id: "insert_plug",
       label: "Insert Plug",
       note: "Plug insertion with precision alignment and contact feedback.",
-      trajectories: touchWorldCaseStates("insert_plug"),
+      trajectories: touchWorldCaseStates("insert_plug", [0, 2, 3]),
     },
     {
       id: "stack_cups",
@@ -962,7 +962,7 @@ function DatasetCollectionGallery({ figureNumber }: { figureNumber: number }) {
       id: "pull_tissue",
       label: "Pull Tissue",
       note: "Soft-object pulling under changing contact and deformation.",
-      trajectories: touchWorldCaseStates("pull_tissue", [0, 1, 4, 5]),
+      trajectories: touchWorldCaseStates("pull_tissue", [0, 1, 4]),
     },
     {
       id: "grasp_milktea_bottle",
